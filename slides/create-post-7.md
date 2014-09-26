@@ -16,8 +16,8 @@ angular.module('BlogApp').controller('PostNewCtrl', [
   '$scope', 'Post', '$state', 'categories', function ($scope, Post, $state, categories) {
     ...
     $scope.createPost = function () {
-      $scope.post.$save(function () {
-        $state.go('index');
+      $scope.post.$save(function (post) {
+        $state.go('index', {id: post.id});
       });
     };
     ...
