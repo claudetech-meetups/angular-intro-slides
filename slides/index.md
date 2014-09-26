@@ -1,3 +1,3 @@
 # AngularJS introduction
 
-by [Daniel Perez](http://tuvistavie.com)@[Claude Tech](http://claudetech.com)
+<!-- .element: class="center" --> by [Daniel Perez](http://tuvistavie.com)@[Claude Tech](http://claudetech.com)

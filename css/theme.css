@@ -146,4 +146,10 @@ body {
 .reveal .slide-number {
   color: #13DAEC; }
 
+.reveal .slides p, .reveal .slides ul, .reveal .slides li {
+  text-align: left;
+  font-size: 22pt; }
+.reveal .slides .center {
+  text-align: center; }
+
 /*# sourceMappingURL=theme.css.map */
