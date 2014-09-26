@@ -11,3 +11,5 @@ Create blog with following functionalities:
 We will use prepared API to work with.
 
 Authentication/authorization will be for next time.
+
+Sample is available at <a href="http://angular-blog-sample.herokuapp.com" target="_blank">angular-blog-sample.herokuapp.com</a>.
