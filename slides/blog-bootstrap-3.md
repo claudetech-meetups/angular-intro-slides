@@ -1,8 +1,9 @@
 ## Post list basic layout
 
-Create sample content in `views/post_index.jade`
+Create sample content in `views/posts/index.jade`
 
 ```slim
+// views/posts/index.jade
 .post.row
   .row
     .col-xs-12

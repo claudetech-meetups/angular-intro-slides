@@ -1,6 +1,6 @@
 ## Show single post
 
-Create `views/post_show.jade`, we will extend `layout.jade` for now.
+Create `views/posts/show.jade`, we will extend `layout.jade` for now.
 
 ```
 extends ./layout.jade
@@ -10,7 +10,7 @@ block content
     .row
       .col-xs-12
         h2 {{post.title}}
-        small.date {{post.date|date:'y/M/d'}}
+        small.date {{post.createdAt|date:'y/M/d'}}
     .row.content
       .col-xs-12 {{post.content}}
 ```
@@ -22,12 +22,13 @@ create `PostShowCtrl` function.
 ....
 function PostShowCtrl($scope) {
   $scope.post = {
+    id: 1,
     title: "Post title",
     content: "Post content",
-    date: new Date()
+    createdAt: new Date()
   };
 }
 ```
 
-You can try to access your page: <a href="http://localhost:9000/post_show.html" target="_blank">localhost:9000/post_show.html</a>
+You can try to access your page: <a href="http://localhost:9000/posts/show.html" target="_blank">localhost:9000/posts/show.html</a>
 

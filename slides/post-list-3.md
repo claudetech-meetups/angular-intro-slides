@@ -11,7 +11,7 @@
     .row
       .col-xs-12
         h2(ng-bind="post.title")
-        small.date(ng-bind="post.date|date:'y/M/d'")
+        small.date(ng-bind="post.createAt|date:'y/M/d'")
     .row.content
       .col-xs-12(ng-bind="post.content|limitTo:100")
     .row

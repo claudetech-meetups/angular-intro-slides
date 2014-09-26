@@ -13,11 +13,11 @@ angular.module('BlogApp').config([
     $stateProvider
       .state('index', {
         url: '/',
-        templateUrl: 'post_index.html'
+        templateUrl: 'posts/index.html'
       })
       .state('show', {
         url: '/posts/:id',
-        templateUrl: 'post_show.html'
+        templateUrl: 'posts/show.html'
       });
   }
 ]);

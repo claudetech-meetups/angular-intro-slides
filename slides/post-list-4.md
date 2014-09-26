@@ -5,13 +5,15 @@ Add dummy data in the controller.
 ```js
 function PostIndexCtrl($scope) {
   $scope.posts = [{
+    id: 1,
     title: "Post title",
     content: "Post content",
-    date: new Date()
+    createdAt: new Date()
   }, {
+    id: 2,
     title: "Post title 2",
     content: "Post content 2",
-    date: new Date()
+    createdAt: new Date()
   }];
 }
 ```

@@ -5,20 +5,20 @@ Controllers should be defined in routes.
 ```js
       .state('index', {
         url: '/',
-        templateUrl: 'post_index.html',
+        templateUrl: 'posts/index.html',
         controller: 'PostIndexCtrl'
       })
       .state('show', {
         url: '/posts/:id',
-        templateUrl: 'post_show.html',
+        templateUrl: 'posts/show.html',
         controller: 'PostShowCtrl'
       });
 ```
 
-and removed from `views/post_index.jade` and `views/post_show.jade`.
+and removed from `views/posts/index.jade` and `views/posts/show.jade`.
 
 ```jade
-// views/post_show.jade
+// views/posts/show.jade
 .post.row
   ...
 ```
