@@ -22,6 +22,7 @@ And set link
 ```jade
 // views/layout.jade
 ...
+        .block.admin
           h3 Admin
             ul.list-unstyled
               li: a.small(ui-sref="new") Add post

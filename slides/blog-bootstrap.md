@@ -16,10 +16,12 @@ html
         .col-xs-8
           block content
         .col-xs-4
-          h3 Categories
-            ul.list-unstyled
-              li: a.small(href="#") Plenty of categories
-          h3 Admin
-            ul.list-unstyled
-              li: a.small(href="#") Add post
+          .block.categories
+            h3 Categories
+              ul.list-unstyled
+                li: a.small(href="#") Plenty of categories
+          .block.admin
+            h3 Admin
+              ul.list-unstyled
+                li: a.small(href="#") Add post
 ```
