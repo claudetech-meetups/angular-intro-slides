@@ -10,8 +10,28 @@
         "try-2.md",
         "try-3.md"
     ],
+    "blog-outline.md",
     [
-        "blog.md",
-        "blog-2.md"
+        "blog-bootstrap.md",
+        "blog-bootstrap-2.md"
+    ],
+    [
+        "post-list.md",
+        "post-list-2.md",
+        "post-list-3.md",
+        "post-list-4.md"
+    ],
+    [
+        "post-show.md",
+        "post-show-2.md"
+    ],
+    [
+        "modularization.md",
+        "modularization-2.md"
+    ],
+    [
+        "routing.md",
+        "routing-2.md",
+        "routing-3.md"
     ]
 ]

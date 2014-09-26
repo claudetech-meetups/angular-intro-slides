@@ -3,7 +3,7 @@
 ```sh
 $ leaves new angular-blog
 $ cd angular-blog
-$ leaves install jquery angular angular-resource bootstrap
+$ leaves install jquery angular angular-resource bootstrap angular-ui-router
 ```
 
 Rename `assets/js/app.coffee` to `assets/js/app.js`,
@@ -22,6 +22,7 @@ html
     script(src="components/jquery/dist/jquery.min.js")
     script(src="components/angular/angular.min.js")
     script(src="components/angular-resource/angular-resource.min.js")
+    script(src="components/angular-ui-router/release/angular-ui-router.min.js")
     script(src="components/bootstrap/dist/js/bootstrap.min.js")
 
     script(src="js/app.js")
