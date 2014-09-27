@@ -3,6 +3,7 @@
 We use `ng-bind-html` to display HTML and not escaped values.
 
 ```jade
+// views/posts/show.jade
 .post.row
   ....
   .row.content

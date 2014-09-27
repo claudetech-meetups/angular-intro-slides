@@ -5,6 +5,7 @@ and configure the routes.
 
 ```js
 // assets/js/app.js
+...
 
 angular.module('BlogApp').config([
   '$stateProvider', '$urlRouterProvider', function ($stateProvider, $urlRouterProvider) {
@@ -25,6 +26,7 @@ angular.module('BlogApp').config([
 
 Then, remove the `extends` and `block content` from `views/posts_show.jade`:
 we don't need the whole layout.
+For consistency, move `views/post_show.jade` to `views/posts/show.jade`.
 
 You can now access your route:
 <a href="http://localhost:9000/#/posts/1" target="_blank">localhost:9000/#/posts/1</a>

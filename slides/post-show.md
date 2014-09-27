@@ -1,6 +1,6 @@
 ## Show single post
 
-Create `views/posts/show.jade`, we will extend `layout.jade` for now.
+Create `views/posts_show.jade`, we will extend `layout.jade` for now.
 
 ```
 extends ./layout.jade
@@ -30,5 +30,5 @@ function PostShowCtrl($scope) {
 }
 ```
 
-You can try to access your page: <a href="http://localhost:9000/posts/show.html" target="_blank">localhost:9000/posts/show.html</a>
+You can try to access your page: <a href="http://localhost:9000/posts_show.html" target="_blank">localhost:9000/posts_show.html</a>
 

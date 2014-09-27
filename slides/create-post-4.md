@@ -5,7 +5,7 @@ Use custom made promise and resolve API result.
 
 
 ```js
-// js/app.js
+// assets/js/app.js
 ...
       .state('new', {
         url: '/posts/new',

@@ -13,3 +13,6 @@ Update index routes to take `category` query parameter.
         controller: 'PostIndexCtrl'
       })
 ```
+
+This is needed to pass `category` to `ui-sref` and
+to read it from `$stateParams`.

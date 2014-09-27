@@ -14,7 +14,8 @@ Create partial
 
 Change layout to use partial.
 
-``` views/layout.jade
+```jade
+// views/layout.jade
 ....
         .col-xs-4
           include ./categories/index
