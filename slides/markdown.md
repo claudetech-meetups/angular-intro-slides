@@ -21,3 +21,5 @@ angular.module('BlogApp').filter('markdown', [
   We return empty string if undefined.
 * The markdown is formatted in HTML, we need to trust the input
   to tell Angular it is safe.
+* We suppose that the input is actually safe here,
+  so some extra precautions would be needed when this is not the case.
